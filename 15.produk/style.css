@@ -1,0 +1,42 @@
+.header{
+    min-height: 50px;
+    background-color: grey;
+    text-align: center;
+}
+
+.content{
+    min-height: 400px;
+    background-color: khaki;
+    overflow: auto;
+}
+
+.footer {
+    min-height: 50px;
+    background-color: firebrick;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+  
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.thumbnail {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+    float: left;
+}
+
+.thumbnail img {
+    width: 100%;
+}

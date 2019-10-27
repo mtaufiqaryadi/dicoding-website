@@ -1,0 +1,21 @@
+.satu {
+    text-align: left;
+    text-indent: 20px;
+    text-decoration: overline;
+}
+
+.dua {
+    text-align: right;
+    text-decoration: underline;
+}
+
+.tiga {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.empat {
+    text-align: justify;
+    word-spacing: 10px;
+}
+

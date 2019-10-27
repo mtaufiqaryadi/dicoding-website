@@ -1,0 +1,83 @@
+/* header */
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 50px;
+    background-color: grey;
+    text-align: center;
+    padding: 5px;
+}
+
+.menu ul {
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+ul.submenu {
+    position: absolute;
+    text-align: left;
+    display: none;
+    border: 1px solid black;
+}
+
+ul.submenu li {
+    display: block;
+}
+
+ul.submenu li a {
+    display: block;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.menu ul li:hover ul.submenu {
+    display: block;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+    padding: 80px 40px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+/* content */
+.content {
+    padding: 10px;
+    min-height: 400px;
+    background-color: khaki;
+    overflow: auto;
+}
+
+.thumbnail {
+    text-align: center;
+    background-color: white;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    min-height: 50px;
+    background-color: firebrick;
+    padding: 10px;
+}

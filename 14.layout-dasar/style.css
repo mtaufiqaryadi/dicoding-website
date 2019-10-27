@@ -1,0 +1,34 @@
+.header {
+    min-height: 50px;
+    background-color: grey;
+    text-align: center;
+
+}
+
+.content {
+    min-height: 400px;
+    background-color: khaki;
+}
+
+.footer{
+    min-height: 50px;
+    background-color: firebrick;
+}
+
+#judul,#copyright{
+    text-align: center;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.menu ul{
+    padding: 0;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 10px 10px;
+}

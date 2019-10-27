@@ -1,0 +1,11 @@
+button:hover {
+    background-color: darkgrey;
+}
+
+button {
+    background-color: darkcyan;
+}
+
+p {
+    color: green;
+}

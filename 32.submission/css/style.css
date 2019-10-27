@@ -1,0 +1,87 @@
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* header dan menu */
+.header{
+    min-height: 50px;
+    text-align: center;
+    background-color: #343a40;
+    padding: 5px;
+}
+
+.header h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul{
+    padding: 0;
+}
+
+.navbar ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+ul.submenu {
+    position: absolute;
+    border: 1px solid black;
+    text-align: left;
+    padding: 0;
+    display: none;
+}
+
+ul.submenu li {
+    display: block;
+}
+
+ul.submenu li a {
+    font-size: small;
+    display: block;
+    background-color: black;
+}
+
+.navbar ul li:hover ul.submenu{
+    display: block;
+}
+
+/* jumbotron */
+.jumbotron{
+    text-align: center;
+    min-height: 200px;
+    padding: 50px 25px;
+    background-image: url('../img/unsplash.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.jumbotron h1, .jumbotron p{
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* content */
+/* education */
+.content {
+    min-height: 400px;
+    overflow: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.education {
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+
+
